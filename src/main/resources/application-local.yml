@@ -1,2 +1,7 @@
 server:
   port: 8096
+
+
+#是否开启swagger文档， true 为开启
+myConfig:
+  swagger-ui-open: true
