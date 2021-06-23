@@ -22,7 +22,7 @@ public class HelloController {
 
     @PostMapping("/test")
     @ApiModelProperty(value = "测试hello接口")
-    @ApiImplicitParam(paramType="query", name = "blogName", value = "博客名称", required = true, dataType = "String",defaultValue = "daolai.fu")
+    @ApiImplicitParam(paramType="query", name = "blogName", value = "字段描述", required = true, dataType = "String",defaultValue = "daolai.fu")
     public String hello(@RequestParam String blogName){
 
         return "helloWorld" + blogName;

@@ -37,7 +37,7 @@ public class Swagger2 {
         return new Docket(DocumentationType.SWAGGER_2)
                 .apiInfo(apiInfo())
                 .select()
-                .apis(RequestHandlerSelectors.basePackage("com.example.nerverstop"))
+                .apis(RequestHandlerSelectors.basePackage("com.example.neverstop"))
                 .paths(PathSelectors.any())
                 .build();
     }
